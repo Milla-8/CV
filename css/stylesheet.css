@@ -16,11 +16,14 @@ h1 {
 h1, h2, h3, h4, h5 {
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-bottom:5px;
 }
 
 h2 {
     margin-bottom: 20px;
+}
+
+h3, h4 {
+    margin-bottom: 5px;
 }
 
 .contact {
