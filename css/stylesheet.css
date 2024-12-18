@@ -1,20 +1,5 @@
-
-head {
-    background-color: hsl(277, 44%, 90%);
-  }
-  h1 {
-    color: rgb(180, 138, 207);
-  }
-  p {
-    color: rgb(3, 3, 3);
-  }
-
 body {
-    background-color: hsl(277, 44%, 90%);
-  }
-  h1 {
-    color: rgb(180, 138, 207);
-  }
-  p {
-    color: rgb(3, 3, 3);
-  }
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
