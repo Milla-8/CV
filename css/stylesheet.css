@@ -1,5 +1,92 @@
-body {
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    width: 20%;
+    background-color: #e1d4e4;
+    color: rgb(88, 66, 100);
+    padding: 20px;
+}
+
+.left-side img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h1 {
     margin: 0;
-    font-family: Arial, sans-serif;
-    color: #333;
+    font-size: 50px;
+    color: rgb(88, 66, 100);
+    background-color: #eee6f0; /* background on the header */
+    padding: 15px;
+    text-align: center;
+}
+
+.left-side h2 {
+    color: hsl(122, 82, 145);
+    border-bottom: 2px solid rgb(145, 81, 146); /* matches the color on the*/
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}    
+
+.right-side header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.right-side {
+    width: 80%;
+    background-color: hsl(300, 38%, 97%);
+    color: rgb(88, 66, 100);
+    padding: 20px;
+}
+
+.right-side h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: #f9f4fa;
+    color: rgb(88, 66, 100);
+
+}
+
+.right-side h2 {
+    color: hsl(122, 82, 145);
+    border-bottom: 2px solid #e1d4e4; /* matches the background color on the left side */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.right-side .item {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .left-side {
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .left-side {
+        text-align: left;
+    }
 }
