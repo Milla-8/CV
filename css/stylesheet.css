@@ -122,6 +122,10 @@ footer {
     .left-side {
         text-align: left;
     }
+
+    header, footer {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -139,7 +143,6 @@ footer {
     }
 
     header, footer {
-        width: 100%;
-        padding: 10px;
+        width: 100vw;
     }
 }
