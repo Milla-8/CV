@@ -8,8 +8,6 @@ h1 {
     font-size: 50px;
     color: rgb(88, 66, 100);
     background-color: #eee6f0; /* background on the header */
-    padding-top: 20px;
-    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -124,7 +122,12 @@ footer {
     }
 
     header, footer {
+        margin: 0;
+        padding: 20px;
+        background-color: #f0e6f6;
         width: 100%;
+        box-sizing: border-box;
+        text-align: center;
     }
 }
 
@@ -143,6 +146,11 @@ footer {
     }
 
     header, footer {
-        width: 100vw;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0e6f6;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
     }
 }
