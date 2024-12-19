@@ -107,8 +107,8 @@ footer {
     font-size: 15px;
     color: rgb(88, 66, 100);
     background-color: #eee6f0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
     text-align: center;
 }
 
@@ -149,7 +149,7 @@ footer {
         margin: 0;
         padding: 20px;
         background-color: #f0e6f6;
-        width: 100%;
+        width: 100vw;
         box-sizing: border-box;
         text-align: center;
     }
