@@ -137,4 +137,9 @@ footer {
     .left-side {
         text-align: left;
     }
+
+    header, footer {
+        width: 100%;
+        padding: 10px;
+    }
 }
